@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.services{
+  margin-left: 50px;
+}
+.entries{
+  margin-bottom: 20px ;
+}
+.service-heading{
+  margin-top: 100px!important;
+}
+@media only screen and (max-width: 600px) {
+  .services {
+    margin-left: 0;
+  }
+}
+
+/* :root{
+  filter: invert(100%)
+} */

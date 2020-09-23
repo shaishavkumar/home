@@ -1,0 +1,32 @@
+.navbar{
+    padding: 8px 70px !important;
+    box-shadow: 5px 5px 25px -5px rgba(0,0,0,0.2);
+}
+.active_class{
+    color:rgb(236,54,96) !important;
+    border-bottom:1px solid rgb(236,54,96) !important;
+  }
+  .navbar-brand{
+      font-size: 1.8rem !important;
+      color: rgb(236,54,96) !important;
+      font-weight: bold;
+}
+.navbar-brand:hover{
+    color: rgb(80,232,94) !important;
+}
+.navbar .nav-link:hover{
+    color: rgb(80,232,94) !important;
+}
+.nav-link{
+    color: rgb(44,126,188) !important;
+}
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 8px 40px !important;
+    }
+    .navbar-brand{
+        font-size: 1rem !important;
+        font-weight: normal;
+  }
+
+  }

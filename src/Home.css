@@ -1,0 +1,40 @@
+
+.main-body{
+    margin-top: 100px;
+}
+.brand-name{
+    color: rgb(236,54,96);
+}
+.btn-get-started{
+    text-decoration: none;
+    padding: 12px 30px;
+    /* color: rgb(245,208,18); */
+    color: rgb(236,54,96);
+    border: 2px solid rgb(236,54,96);
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.btn-get-started:hover{
+    background-color: rgb(236,54,96);
+    color: white;
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}

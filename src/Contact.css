@@ -1,0 +1,17 @@
+.btn{
+    text-decoration: none !important;
+    padding: 8px 30px !important;
+    background-color: white;
+    /* color: rgb(245,208,18); */
+    color: rgb(236,54,96)!important;
+    border: 2px solid rgb(236,54,96)!important;
+    border-radius: 25px!important;
+    transition: 0.3s!important;
+  }
+.btn:hover{
+    background-color: rgb(236,54,96)!important;
+    color: white!important;
+  }
+  .main-contact{
+    margin-top: 80px !important;
+  }
